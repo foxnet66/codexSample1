@@ -1,0 +1,7 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "@next/next/no-html-link-for-pages": ["error", "src/pages"],
+    "react/jsx-sort-props": ["warn", { "callbacksLast": true, "shorthandLast": true }]
+  }
+}
